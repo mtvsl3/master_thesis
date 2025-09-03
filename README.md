@@ -38,5 +38,5 @@ Folders:
   - -csv files with converted data
 
 Setup requirements:
-1. Change the folder path for the tables in your local repo to ensure the files are outputted in a correct place
+1. In Star-CCM+ navigate to _Tools > Tables_ and in each table, change the folder path to the relevent folder in your local repo to ensure the files are outputted in a correct place
 ## Nektar++ 
