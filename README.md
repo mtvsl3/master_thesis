@@ -22,6 +22,21 @@ All folders names are following the same convention: CASE NUMBER + SETUP TYPE + 
 - SETUP TYPE - _dim_ (for dimensional setup) or _nondim_ (for non-dimensional setup file)
 - P - polynomial order
 
-## Star-CCM+
+For example, folder named _133_nondim_p4_ corresponds to a case with $M_{out}=0.95$ with non-dimensional simulation setup and polynomial expansions of 4th order
 
+## Scripts
+
+## Star-CCM+
+The problem was first implemented in Star-CCM+ with RANS resolution.
+
+Folders:
+1. _simulations_
+  - .sim files for the three studied cases
+2. _tables_
+  - _convert_dimensions.py_ - Python code to convert the variables from primitive to conservative and to non-dimensionalise (if needed)
+  - .csv files from Star-CCM+ with data that will be used to initialise Nektar++ (get automatically updated when Star-CCM+ simulations run until 800th iteration)
+  - -csv files with converted data
+
+Setup requirements:
+1. Change the folder path for the tables in your local repo to ensure the files are outputted in a correct place
 ## Nektar++ 
