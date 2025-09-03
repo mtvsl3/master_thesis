@@ -25,7 +25,7 @@ All folders names are following the same convention: CASE NUMBER + SETUP TYPE + 
 For example, folder named _133_nondim_p4_ corresponds to a case with $M_{out}=0.95$ with non-dimensional simulation setup and polynomial expansions of 4th order
 
 ## Scripts
-
+1. _convert_and_copy_files_
 ## Star-CCM+
 The problem was first implemented in Star-CCM+ with RANS resolution.
 
@@ -37,6 +37,10 @@ Folders:
   - .csv files from Star-CCM+ with data that will be used to initialise Nektar++ (get automatically updated when Star-CCM+ simulations run until 800th iteration)
   - -csv files with converted data
 
-Setup requirements:
+Setup:
 1. In Star-CCM+ navigate to _Tools > Tables_ and in each table, change the folder path to the relevent folder in your local repo to ensure the files are outputted in a correct place
+
 ## Nektar++ 
+
+Setup:
+1. Adjust the _parent_folder_ path in the _main.py_ script
