@@ -1,6 +1,6 @@
 # master_thesis
 ## Description
-This project investigates the SPLEEN high-speed low-pressure (LPT) turbine through a numerical study. The problem was first implemented in Star-CCM+, which then was used to initialise the spectral/hp element method solver Nektar++. Experimental data was obtained from: https://zenodo.org/records/13712768
+This project investigates the [SPLEEN high-speed low-pressure (LPT) turbine]([/guides/content/editing-an-existing-page#modifying-front-matter](https://www.h2020-spleen.eu/)) through a numerical study. The problem was first implemented in Star-CCM+, which then was used to initialise the spectral/hp element method solver Nektar++. Experimental data was obtained from: https://zenodo.org/records/13712768
 
 ## Organisation
 1. _parent_folder_ - contains all simulation files
